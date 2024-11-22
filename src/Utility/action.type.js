@@ -1,0 +1,12 @@
+export const Type = {
+  ADD_TO_BASKET: "ADD_TO_BASKET",
+  UPDATE_QUANTITY: "UPDATE_QUANTITY",
+  REMOVE_FROM_BASKET: "REMOVE_FROM_BASKET",
+};
+
+//or
+// export const Type = {
+//   ADD_TO_BASKET,
+//   REMOVE_FROM_BASKET,
+//   UPDATE_QUANTITY,
+// };
