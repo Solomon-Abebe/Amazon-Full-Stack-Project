@@ -21,16 +21,22 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
+   
+    /* max-width: fit-content; */
+
 }
 .btn{
-    padding: 5px 16px;
+    /* padding: 5px 1px; */
     font-weight: bold;
     cursor: pointer;
-    background-color: #fff;
-    border: none;
+    background-color: #F2F1F1;
+    border: 1px solid;
+     border-radius: 5px;
 }
 .btn:hover svg{
     background-color: var(--primary-color);
+     border-radius: 5px;
+     border: 1px solid;
 }
 .cart_container{
     padding: 20px;

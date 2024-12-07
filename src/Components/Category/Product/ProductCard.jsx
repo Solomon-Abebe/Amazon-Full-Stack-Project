@@ -23,7 +23,7 @@
 //           },
 //         });
 //     }
-   
+
 //   return (
 //     <div
 //       className={`${classes.card_container} ${
@@ -172,7 +172,7 @@ import { DataContext } from "../../DataProvider/DataProvider";
 import { Type } from "../../../Utility/action.type";
 
 function ProductCard({ product, flex, renderDesc, actions, renderAdd }) {
-  const { image, title, id, rating, price, description } = product;
+  const {image, title, id, rating, price, description } = product;
   const [state, dispatch] = useContext(DataContext);
 
   const addToCart = () => {
@@ -220,5 +220,3 @@ function ProductCard({ product, flex, renderDesc, actions, renderAdd }) {
 }
 
 export default ProductCard;
-
-
