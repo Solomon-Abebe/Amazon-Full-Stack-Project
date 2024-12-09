@@ -192,7 +192,7 @@ function ProductCard({ product, flex, renderDesc, actions, renderAdd }) {
     >
       <img src={image} alt={title} />
       <div>
-        <h3>{title}</h3>
+        <h4>{title}</h4>
         {renderDesc && <p>{description}</p>}
         <div className={classes.rating}>
           <Rating value={rating?.rate || 0} precision={0.1} />
